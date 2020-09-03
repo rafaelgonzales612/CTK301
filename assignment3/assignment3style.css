@@ -1,0 +1,56 @@
+/*Add header, main, nav, and footer tags
+    Add classes and ids; page links red by default, yellow on hover and green on visited
+    Add at least one span and one div*/
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #00ff00;
+}
+
+a:hover {
+  color: #ffff00;
+}
+
+header {
+  color: #ff0000;
+  background-color: #bfbfbf;
+}
+
+.mainheaders {
+  background-color: #ff0000;
+}
+
+.secondheaders {
+  color: #800000;
+}
+
+.thirdheaders {
+  color: #ff0080;
+}
+
+.courseheaders {
+  color: #b300b3;
+}
+
+nav {
+  background-color: #000000;
+}
+
+#contactinfo {
+  background-color: #ff8080;
+}
+
+#admitrequire {
+  color: #0000ff;
+}
+
+.descriptors {
+  background-color: #d9d9d9;
+}
+
+footer {
+  color: #ff0000;
+}
