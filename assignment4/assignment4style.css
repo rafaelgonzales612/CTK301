@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  background-image: url(reggieredbird.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #00ff00;
+}
+
+a:hover {
+  color: #ffff00;
+}
+
+header {
+
+  background-color: #bfbfbf;
+}
+
+h1 {
+  color: #ffa500;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.imgbox {
+  border: 5px solid #000000;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.mainheaders {
+  background-color: #ff0000;
+  color: #ffa500;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.secondheaders {
+  /*color: #800000;*/
+  color: #ffa500;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.thirdheaders {
+  /*color: #ff0080;*/
+  color: #ffa500;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.courseheaders {
+  /*color: #b300b3;*/
+  color: #ffa500;
+  font-weight: normal;
+  font-style: italic;
+}
+
+nav {
+  background-color: #000000;
+}
+
+#contactinfo {
+  background-color: #ff8080;
+}
+
+#admitrequire {
+  color: #0000ff;
+}
+
+.descriptors {
+  background-color: #d9d9d9;
+}
+
+.descriptorscenter {
+  text-align: center;
+}
+
+.descriptorsjustify {
+  text-align: justify;
+}
+
+footer {
+  color: #ff0000;
+  text-align: center;
+}
