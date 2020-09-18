@@ -1,0 +1,61 @@
+body {
+  background-image: url(Lakeith.jpg);
+  background-repeat: no-repeat;
+  color: #750fbd;
+  background-color: #FFD338;
+  font-family: impact;
+}
+
+.boots {
+  font-size: 28px;
+  color: #750fbd;
+}
+
+h1 {
+  border-top: 5px solid #750fbd;
+  margin-top: 10px;
+  font-size: 110px;
+  width: 580px;
+  text-align: center;
+  color: #db0fbd;
+}
+
+.actors {
+  border-bottom: 5px solid #750fbd;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  padding-top: 400px;
+  font-size: 28px;
+  width: 580px;
+  text-align: justify;
+  color: #db0fdb;
+}
+
+span {
+  color: #ff0000;
+}
+
+.magenta {
+  color: #750fbd;
+  font-size: 22px;
+}
+
+.movielink {
+  width: 580px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  color: #ff00ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+img {
+  margin-left: 190px;
+}
