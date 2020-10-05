@@ -1,0 +1,122 @@
+body {
+  margin: 1em auto;
+  width: 840px;
+  border: 5px solid blue;
+
+}
+
+h1 {
+  font-style: italic;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-image: linear-gradient(to bottom, #418af9, #1e78fc, #0065fd, #0050fb, #0036f6);
+}
+
+h1 a {
+  color: lightblue;
+  padding: 25px 241px 25px 25px;
+  margin: 0;
+}
+
+nav ul {
+  background-color: #0036f6;
+  margin-top: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #418af9, #1e78fc, #0065fd, #0050fb, #0036f6);
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  width: 155px;
+  border-right: 5px solid #0036f6;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 0;
+  padding:  10px 25px 10px 25px;
+  color: lightblue;
+
+  background-image: linear-gradient(to bottom, #418af9, #1e78fc, #0065fd, #0050fb, #0036f6);
+}
+
+nav a:hover {
+  color: lightblue;
+  background-image: linear-gradient(to top, #418af9, #1e78fc, #0065fd, #0050fb, #0036f6);
+}
+
+main {
+  padding: 0 25px 0 25px;
+}
+
+h2 {
+  border-bottom: 3px solid blue;
+  color: blue;
+  padding-bottom: 5px;
+}
+
+h1, nav li, h2 {
+  font-family: helvetica;
+  font-weight: normal;
+}
+
+.floatimage1 {
+  float: left;
+  border: 2px solid blue;
+  margin-right: 15px;
+  margin-bottom: 45px;
+}
+
+.floatimage2 {
+  float: right;
+  border: 2px solid blue;
+  margin-left: 15px;
+  margin-bottom: 45px;
+}
+
+.floatimage3 {
+  border: 2px solid blue;
+  display: inline-block;
+  width: 250px;
+}
+
+.floatimage4 {
+  border: 2px solid blue;
+  display: inline-block;
+  width: 250px;
+  margin: 0 10px 0 10px;
+}
+
+.floatimage5 {
+  border: 2px solid blue;
+  display: inline-block;
+  width: 250px;
+}
+
+.clearp {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.p1 {
+  font-weight: bold;
+  text-align: justify;
+}
+
+span {
+  font-weight: bold;
+  color: red;
+}
+
+footer {
+  border-top: 3px solid blue;
+  background-color: red;
+  padding: 15px;
+}
