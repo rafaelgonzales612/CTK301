@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  font-family: Georgia, serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  position: relative;
+  text-align: center;
+
+}
+
+main {
+
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+.content-wrapper {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+}
+
+a {
+  grid-column: span 4;
+  position: relative;
+}
+
+.header2-text-wrapper {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h2 {
+  grid-column: span 4;
+  text-align: center;
+}
+
+section {
+  grid-column: span 4;
+  background-color: black;
+  color: white;
+  padding: 6px;
+}
+
+footer {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h4 {
+  grid-column: span 6;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+nav {
+  grid-column: span 6;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: black;
+}
+
+.rectangle {
+  grid-column: 6;
+  width: 150px;
+  border: 1px solid black;
+}
