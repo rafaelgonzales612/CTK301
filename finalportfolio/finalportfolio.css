@@ -1,0 +1,162 @@
+body {
+  background-color: black;
+  font-family: komu-a, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  position: relative;
+  text-align: center;
+}
+
+#headerimg {
+  border: 2px solid black;
+}
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 1px 1px 2px white;
+}
+
+.content-wrapper {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+}
+
+.navimg {
+  border-radius: 180px;
+  border: 2px solid black;
+}
+
+.imglink {
+  grid-column: span 4;
+  position: relative;
+}
+
+.header2-text-wrapper {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h2 {
+  grid-column: span 4;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 1px 1px 2px white;
+}
+
+section {
+  grid-column: span 4;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-family: 'Architects Daughter', cursive;
+
+}
+
+.clefslink {
+  color: white;
+}
+
+.roundedbox {
+  border: 3px solid white;
+  border-radius: 24px;
+  box-shadow: -10px 10px 10px black;
+
+
+  max-width: 360px;
+}
+
+.fancybox img{
+  max-width: 340px;
+  margin: 5px;
+}
+
+.sectionimg {
+  max-width: 340px;
+}
+
+footer {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h4 {
+  grid-column: span 6;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px white;
+}
+
+nav {
+  grid-column: span 6;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 24px;
+  color: black;
+  font-family: 'Architects Daughter', cursive;
+
+}
+
+.contact {
+  grid-column: span 6;
+}
+
+form {
+  display: block;
+}
+
+.contactinfo {
+ grid-column: span 6;
+}
+
+.footerp {
+  display: inline-block;
+  margin: 10px;
+  width: 150px;
+}
+
+.rectangle {
+  width: 150px;
+  border: 1px solid black;
+}
+
+.rectangle2 {
+  width: 480px;
+  border: 1px solid black;
+}
